@@ -12,12 +12,9 @@ const AppContent: React.FC = () => {
       {/* Navbar / Header */}
       <header className="fixed top-0 w-full z-50 bg-white/90">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between relative">
-          <div className="flex items-center gap-3">
-            <Logo className="w-20 h-20" />
-            <div className="flex flex-col">
-              <span className="font-extrabold text-2xl tracking-tight text-gray-900">INTEGRITY</span>
-              <span className="text-[10px] text-gray-600">Software Training</span>
-            </div>
+          <div className="flex flex-col">
+            <span className="font-extrabold text-2xl tracking-tight text-gray-900">INTEGRITY</span>
+            <span className="text-[10px] text-gray-600">Software Training</span>
           </div>
           <div className="hidden md:flex flex-col items-end gap-2">
             <a href={`mailto:${APP_CONSTANTS.CONTACT_EMAIL}`} className="text-sm font-medium text-gray-600">
