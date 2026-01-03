@@ -70,7 +70,7 @@ export const PricingCard: React.FC<PricingCardProps> = ({ plan, mode }) => {
           </div>
           
           <p className="text-xs text-gray-500 font-medium uppercase tracking-wider">
-            {isMonthly ? 'Pay as you go' : `${plan.durationMonths} Month Intensive`}
+            {isMonthly ? 'Pay as you go' : `${plan.durationMonths} Months Intensive`}
           </p>
         </div>
 
