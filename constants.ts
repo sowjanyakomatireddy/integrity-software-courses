@@ -15,14 +15,14 @@ export const COURSES: CoursePlan[] = [
   },
   {
     id: 'mern',
-    title: 'MERN & Mean Stack',
-    description: 'Become a full-stack developer with MongoDB, Express, React/Angular, and Node.',
+    title: 'MERN Stack',
+    description: 'Become a full-stack developer with MongoDB, Express, React, and Node.',
     monthlyPrice: 5999,
     originalMonthlyPrice: 9000,
     fullCoursePrice: 30999,
     originalFullCoursePrice: 46000,
     durationMonths: 6,
-    features: ['React.js & Angular', 'Node.js Backend', 'MongoDB Database', 'REST APIs'],
+    features: ['React.js', 'Node.js Backend', 'MongoDB Database', 'REST APIs'],
     popular: true,
     color: 'from-blue-500 to-cyan-500'
   },
